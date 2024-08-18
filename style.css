@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+   height: 450px;
+   width: 450px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+#details{
+    height: 400px;
+    width: 400px;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+body > div{
+    display: flex;
+    height: 550px;
+    width: 850px;
+    /* background-color: rgb(185, 185, 185); */
+ border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 50px rgb(168, 168, 168);
+}
+form div{
+    height: 100px;
+    width: 70%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 30px;
+}
+form div input{
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid grey;
+    outline:none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+
+form div label{
+    font-size: 20px;
+    font-weight: 400;
+}
+h1{
+    font-size: 40px;
+}
+
+#submit{
+    height: 50px;
+    width: 70%;
+    border-radius: 50px;
+    font-size: 20px;
+padding: 10px;
+z-index: 99;
+}
+
+#showdetails{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    display: none;
+    
+}
+#showdetails >div{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+  
+    
+}
+
+#mode{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    /* background-color:; */
+    z-index: 1000;
+}
